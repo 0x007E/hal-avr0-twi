@@ -139,7 +139,7 @@ inline unsigned char twi_status(void)
 	 */
     void twi_stop(void)
     {
-	    TWI0.MCTRLB = TWI_MCMD_STOP_gc;
+	    TWI0.MCTRLB |= TWI_MCMD_STOP_gc;
 		
 	    while ((TWI0.MSTATUS & TWI_BUSSTATE_gm) != TWI_BUSSTATE_IDLE_gc);
     }
