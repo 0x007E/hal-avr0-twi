@@ -48,14 +48,14 @@ mv ./hal/hal-common ./hal/common
 
 mkdir -p ./hal/avr0
 git clone https://github.com/0x007E/hal-avr0-twi.git ./hal/avr0
-mv ./hal/avr0/hal-avr0-twi ./hal/avr0/system
+mv ./hal/avr0/hal-avr0-twi ./hal/avr0/twi
 ```
 
 ### Using as `git submodule`
 
 ```sh
-git submodule add https://github.com/0x007E/hal-common.git   hal/common
-git submodule add https://github.com/0x007E/hal-avr0-twi.git hal/avr0/system
+git submodule add https://github.com/0x007E/hal-common.git   ./hal/common
+git submodule add https://github.com/0x007E/hal-avr0-twi.git ./hal/avr0/twi
 ```
 
 ## Programming
