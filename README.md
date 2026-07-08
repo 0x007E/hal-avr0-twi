@@ -2,7 +2,7 @@
 
 # `hal-avr0-twi` - AVR0 TWI Hardware Abstraction
 
-The `hal-avr0-twi` is a lightweight `twi` hardware abstraction library for `AVR0` microcontrollers. It provides a clean interface for `twi` initialization while hiding direct register-level interaction from higher software layers. The library is intended for projects that want to separate low-level device startup code from application logic and establish a small, reusable system layer for AVR0 targets.
+The `hal-avr0-twi` is a lightweight `twi` hardware abstraction library for `AVR0` microcontrollers. It provides a clean interface for `twi` initialization and communication while hiding direct register-level interaction from higher software layers. The library is intended for projects that want to separate low-level device startup code from application logic and establish a small, reusable system layer for AVR0 targets.
 
 ## Features
 
